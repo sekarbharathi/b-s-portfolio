@@ -263,7 +263,7 @@ footer{
 
   .container.project > .project-template{
     display: grid;
-    grid-template-columns: 400px;
+    grid-template-columns: 1fr;
     justify-content: center;
   }
 
