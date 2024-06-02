@@ -224,30 +224,114 @@ footer{
 
 @media screen and (min-width:350px) and (max-width: 499px) {
 
+  h1{
+    font-size: 25px;
+  }
+
+  h3{
+    font-size: 15px;
+
+  }
+
+  h5{
+    font-size: 10px;
+
+  }
+  
+  .herocontent >img{
+    height: 250px;
+
+  }
+
+  h2{
+     font-size: 15px;
+  }
+
+
+  .container.skills > .programmingskills{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .container.project{
+    margin: 0%;
+  }
+  
+  .container.project > .project-template > .grid-item1 > a > img{
+    height: 150px;
+  }
 
   .container.project > .project-template{
-    display: flex;
-    flex-direction: column;
-    align-items: center;}
+    display: grid;
+    grid-template-columns: 400px;
+    justify-content: center;
+  }
+
+
+    .contactinfo{
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+  }
+
+    .contactinfo  svg {
+      height: 30px;
+      width: 30px;
+      padding: 20px;
+      margin: 0%;
+  }
+
 }
 
 @media screen and  (min-width: 500px) and (max-width: 768px){
 
+  .container.skills > .programmingskills{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+
   .container.project > .project-template{
     display: flex;
     flex-direction: column;
+    max-width: 600px;
+    justify-content: center;
     align-items: center;}
+}
+
+@media only screen and (min-width: 769px) and (max-width: 990px) {
+
+  .container.skills > .programmingskills{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+
+  .container.project > .project-template{
+    display: grid;
+    grid-template-columns: 600px ;   
+    align-items: center;
+    justify-content: center;
+    margin:0%
+  }
+    
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1400px) {
+
+  .container.skills > .programmingskills{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+
+  .container.project > .project-template{
+    display: grid;
+    grid-template-columns: 1fr 1fr;   
+    align-items: center;
+    margin:0%
+  }
+    
+}
   
- 
-
-}
-
-@media only screen and (min-width: 769px) and (max-width: 991px) {
-
-  .container.project > .project-template{
-    display: flex;
-    flex-direction: column;
-    align-items: center;}
-
-}
   
